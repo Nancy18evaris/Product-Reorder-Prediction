@@ -9,25 +9,25 @@ Sampling: Dataset size was reduced using sampling techniques to optimize model t
 
 📊 Exploratory Data Analysis (EDA)
 Performed comprehensive EDA to understand:
-Product-wise reorder frequency
-Department and aisle contribution to reorder
-User behavior and patterns over time
-Correlation between engineered features
+Product-wise reorder frequency,
+Department and aisle contribution to reorder,
+User behavior and patterns over time,
+Correlation between engineered features.
 
 🛠️ Feature Engineering
 Extracted meaningful features from product, department, and aisle names.
 Applied OneHotEncoding to categorical variables:
-product_name
-department_name
-aisle_name
+product_name,
+department_name,
+aisle_name.
 Scaled numerical features using MinMaxScaler.
 
 🧪 Model Details
 Architecture:
-Inner Layers: Activated using ReLU
-Output Layer: Activated using Softmax
-Loss Function: Categorical Cross-Entropy
-Optimizer: Adam
+Inner Layers: Activated using ReLU.
+Output Layer: Activated using Softmax.
+Loss Function: Categorical Cross-Entropy.
+Optimizer: Adam.
 Evaluation Metrics:
 F1 Score ✅
 Accuracy ✅
