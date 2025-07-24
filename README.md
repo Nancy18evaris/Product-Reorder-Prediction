@@ -1,4 +1,5 @@
 PROBLEM STATEMENT
+
 This project involves building a Deep Learning model to predict product reordering behaviour by users. The aim is to identify patterns in purchasing habits and predict whether a product will be reordered in the next purchase cycle. The project includes data pre-processing, exploratory data analysis, feature engineering, and model deployment using Streamlit.
 
 🧼 DATA PREPROCESSING
